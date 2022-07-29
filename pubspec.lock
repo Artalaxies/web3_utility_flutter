@@ -218,7 +218,7 @@ packages:
     source: hosted
     version: "0.2.0"
   http:
-    dependency: transitive
+    dependency: "direct main"
     description:
       name: http
       url: "https://pub.dartlang.org"
@@ -246,7 +246,7 @@ packages:
     source: hosted
     version: "2.7.0"
   js:
-    dependency: transitive
+    dependency: "direct main"
     description:
       name: js
       url: "https://pub.dartlang.org"
@@ -274,7 +274,7 @@ packages:
     source: hosted
     version: "0.0.1+2"
   logger:
-    dependency: transitive
+    dependency: "direct main"
     description:
       name: logger
       url: "https://pub.dartlang.org"
@@ -587,7 +587,7 @@ packages:
     source: hosted
     version: "0.3.3"
   url_launcher:
-    dependency: transitive
+    dependency: "direct main"
     description:
       name: url_launcher
       url: "https://pub.dartlang.org"
@@ -643,7 +643,7 @@ packages:
     source: hosted
     version: "3.0.1"
   uuid:
-    dependency: transitive
+    dependency: "direct main"
     description:
       name: uuid
       url: "https://pub.dartlang.org"

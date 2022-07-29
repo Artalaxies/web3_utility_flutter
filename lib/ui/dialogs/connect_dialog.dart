@@ -3,6 +3,7 @@ import 'package:flutter/material.dart';
 import 'package:multilayer_framework/multi_layered_app.dart';
 import 'package:qr_flutter/qr_flutter.dart';
 import 'package:url_launcher/url_launcher.dart';
+import 'package:url_launcher/url_launcher_string.dart';
 
 class ConnectDialog extends StatelessWidget {
   final String data;
@@ -33,7 +34,7 @@ class ConnectDialog extends StatelessWidget {
                 ? <Widget>[
                     MaterialButton(
                       color: Theme.of(context).canvasColor,
-                      onPressed: () => launchUrl(Uri.parse(data)),
+                      onPressed: () => launchUrlString(data),
                       child: Text(
                         'Connect',
                         style: Theme.of(context).textTheme.headline3,

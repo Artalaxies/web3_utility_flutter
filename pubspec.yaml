@@ -1,6 +1,7 @@
 name: web3_utility
 description: A toolkit for cryptocurrency networks.
 version: 0.0.1+1
+repository: https://github.com/Artalaxies/web3_utility_flutter.git
 publish_to: https://artalaxies.jfrog.io/artifactory/api/pub/artalaxies-pub-dev-local
 
 environment:
@@ -36,6 +37,11 @@ dependencies:
   sha3: ^0.2.0
   hex: ^0.2.0
   flutter_web3: ^2.1.9
+  uuid: ^3.0.6
+  http: ^0.13.4
+  logger: ^1.1.0
+  url_launcher: ^6.1.5
+  js: ^0.6.4
 
 dev_dependencies:
   flutter_test:
